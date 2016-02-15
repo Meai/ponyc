@@ -27,6 +27,9 @@ $ brew install ponyc
 
 ## Linux
 
+The gold linker is hardcoded in at the moment, you need to have this package installed in order to build and build with ponyc.
+Most linux distributions have this linker in a package named `binutils` or `binutils-gold`.
+
 ### Gentoo
 
 ```bash
